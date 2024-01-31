@@ -6,14 +6,22 @@ export const Container = styled.div`
     width: 100%;
     margin: 0 auto;
 
+    &::before {
+      content: "";
+      width: 100%;
+      background: linear-gradient(110deg, #111, transparent);
+      position: absolute;
+      height: 100%;
+    }
   img {
     width: 100%;
   }
 
   .banner-text-container {
     width: 100%;
-    max-width: 120rem;
+    max-width: 160rem;
     margin: 0 auto;
+    padding-inline: 2rem;
     .banner-text {
     position: absolute;
     top: 30%;
@@ -24,6 +32,7 @@ export const Container = styled.div`
       font-weight: 400;
       font-family: ${({theme}) => theme.FAMILY.FONT_SUE_ELLEN};
       line-height: 108%;
+
 
     }
     h1 {
@@ -46,7 +55,7 @@ export const Container = styled.div`
     .line {
       width: 100%;
       max-width:30rem;
-      height: .2rem;
+      height: .1rem;
       background-color: white;
     }
 
@@ -59,7 +68,7 @@ export const Container = styled.div`
         letter-spacing: .4rem;
         padding: .6rem 1.8rem;
         border-radius: 1.8rem;
-        border: 2px solid white;
+        border: .2rem solid white;
         text-transform: uppercase;
       }
     }

@@ -5,6 +5,13 @@ export const Container = styled.div`
     position: relative;
     width: 100%;
     
+    &::before {
+      content: "";
+      width: 100%;
+      background: linear-gradient(110deg, #111, transparent);
+      position: absolute;
+      height: 100%;
+    }
 
   img {
     width: 100%;
@@ -12,8 +19,10 @@ export const Container = styled.div`
 
   .banner-text-container {
     width: 100%;
-    max-width: 120rem;
+    max-width: 160rem;
     margin: 0 auto;
+    padding-inline: 2rem;
+
     .banner-text {
     position: absolute;
     top: 30%;
