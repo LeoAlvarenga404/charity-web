@@ -21,7 +21,6 @@ export const Container = styled.div`
     width: 100%;
     max-width: 160rem;
     margin: 0 auto;
-    padding-inline: 2rem;
     .banner-text {
     position: absolute;
     top: 30%;

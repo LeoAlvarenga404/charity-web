@@ -3,7 +3,11 @@ export default {
     RED: '#FF6D6D',
     BLUE: '#77D7D3',
     DARK: '#2E4049',
-     
+    
+    GRAY_100: '#F2F2F2',
+    GRAY_200: '#F1EEEC',
+    GRAY_300: '#ECF1F0',
+    GRAY_DARK: '#727272',
 
 
   },
