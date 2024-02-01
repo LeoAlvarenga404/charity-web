@@ -21,7 +21,6 @@ export function WebRoutes(){
       <Route path="/project" element={<Project/>}/>
       <Route path="/team" element={<Team/>}/>
       <Route path="/volunteer" element={<Volunteer/>}/>
-
     </Routes>
   )
 }

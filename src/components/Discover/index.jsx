@@ -14,7 +14,7 @@ export function Discover(){
     <div className="content-discover">
       <h2>Become a Volunteer</h2>
       <p>Below Poverty Line is enchmark used by the government.</p>
-      <Link to="/team">Join organization</Link>
+      <Link to="/volunteer">Join organization</Link>
     </div>
     <img src={discoverVideo} alt="" />
   </div>
