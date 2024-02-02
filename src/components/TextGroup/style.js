@@ -16,7 +16,7 @@ export const Container = styled.div`
 
     h1 {
       width: 100%;
-      max-width: 33rem;
+      max-width: 60rem;
       color: ${({theme}) => theme.COLORS.DARK};
     }
 

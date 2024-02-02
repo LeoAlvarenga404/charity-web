@@ -2,7 +2,7 @@ import { Container } from "./style"
 import { Logo } from '../logo'
 import { Button } from '../Button'
 import { ArrowDrop } from "../arrowdrop"
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export function Header(){
   return(

@@ -17,29 +17,29 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 800;
   
 }
 h2 {
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 h3{
   font-size: 3re,;
-  font-weight: 700;
+  font-weight: 800;
 }
 h4{
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 h5{
   font-size: 2.2rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 h6{
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 

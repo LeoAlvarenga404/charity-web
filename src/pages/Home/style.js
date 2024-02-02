@@ -5,13 +5,18 @@ export const Container = styled.div`
 
   main {
     width: 100%;
-    max-width: 160rem;
-    margin: 0 auto;
-    padding-bottom: 4rem;
+    
+    #discover {
+      max-width: 160rem;
+      margin: 0 auto;
+    }
     
     #aboutUs {
       display: flex;
       gap: 5rem;
+      
+      max-width: 160rem;
+      margin: 0 auto;
       .about-us {
       div {
         margin-bottom: 2rem;
@@ -62,7 +67,52 @@ export const Container = styled.div`
       }
 
     }
+
+    #causes {
+      background-color: ${({theme}) => theme.COLORS.GRAY_200};
+      margin-top: 16rem;
       
+      .causes-container {
+        max-width: 160rem;
+        margin: 0 auto;
+        padding-block: 15rem;
+
+        .causes-title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          button {
+            width: 20rem;
+            margin-bottom: 6rem;
+          }
+        }
+        .slider-cards {
+          width: 100%;
+          display: flex;
+          gap: 3rem;
+          overflow-x: hidden;
+        }
+
+        .slider-buttons {
+          display: flex;
+          width: 100%;
+          justify-content: space-around;
+         
+          .btn-prev, .btn-next {
+            margin-top: 5rem;
+            background-color: white;
+            height: 5rem;
+            width: 5rem;
+            border-radius: 50%;
+            padding: 1rem;
+            color: ${({theme}) => theme.COLORS.DARK};
+            cursor: pointer;
+          }
+        }
+      } 
+      
+    }
+    
     
   }
   
