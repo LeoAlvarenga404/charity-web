@@ -15,7 +15,8 @@ import image1 from '../../assets/causes-1.png'
 import image2 from '../../assets/causes-2.png'
 import image3 from '../../assets/causes-3.png'
 import image4 from '../../assets/causes-4.png'
-
+import volunteerhome from '../../assets/volunteer-home.png'
+import { Form } from '../../components/Form';
 import { Footer } from '../../components/Footer';
 
 export function Home(){
@@ -87,6 +88,29 @@ export function Home(){
           </div>
         </div>
        </section>
+        <section id="volunteer">
+          <div className="container-volunteer">
+          <div className="content-1">
+            <TextGroup smallerTitle={'How We Help'} largerTitle={`Join The Community To Give Education For Children`} text={'Lorem Ipsum is simply dummy text of the printin typesetting  dummy text ever  when an unknown printer took a galley of type and scrambled it to make a type specimen book.'} smallerTitleStyle={{color: 'white'}} largerTitleStyle={{color: 'white'}} textStyle={{color: 'white'}}/>
+            <img src={volunteerhome} alt="menino escrevendo"/>
+            <Button title={'donate now'}/>
+            
+          </div>
+            <Form
+              containerStyle={{background: 'transparent', border: '1px solid white'}} title={'Become A Volunter'} titleStyle={{color: 'white'}} firstInput={'Full name*'}
+              firstInputStyle={{color: 'white', background: 'transparent', border: '1px solid white'}}
+              secondInput={'Email Adress*'}
+              secondInputStyle={{color: 'white', background: 'transparent', border: '1px solid white'}}
+              thirdInput={'Phone Number*'}
+              thirdInputStyle={{color: 'white', background: 'transparent', border: '1px solid white'}}
+              fourInputStyle={{display: 'none'}}
+              textarea={'Message*'}
+              textareaStyle={{color: 'white', background: 'transparent', border: '1px solid white'}}
+              button={'Submit now'}
+              buttonStyle={{background: 'white', color: 'black'}}
+              />
+        </div>
+        </section>
       </main>
       <Footer/>
     </Container>

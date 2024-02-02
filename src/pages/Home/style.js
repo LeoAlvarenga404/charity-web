@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+
+
+
 export const Container = styled.div`
   width: 100%;
 
@@ -113,7 +116,34 @@ export const Container = styled.div`
       
     }
     
-    
+    #volunteer {
+      width: 100%;
+      background: #2E4049;
+      margin-bottom: 100rem;
+
+      .container-volunteer{
+        max-width: 160rem;
+        margin: 0 auto;
+        padding-block: 11rem;
+        display: flex;
+        gap: 10rem;
+        
+        .content-1 {
+          display: flex;
+          flex-direction: column;
+           
+          img {
+            width: 100%;
+          }
+
+          button {
+            max-width: 20rem;
+            margin-top: 3rem;
+          }
+        }
+        
+      }
+    }
   }
   
 `
