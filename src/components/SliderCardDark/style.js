@@ -25,7 +25,7 @@ export const Container = styled.div`
     filter: blur(.2rem);
     img {
     width: 100%;
-    aspect-ratio: 1/1;
+    
     }
 
   }
@@ -89,7 +89,7 @@ export const Container = styled.div`
       margin-right: 2rem;
       a{
       padding: 3rem;
-      background-color: ${({theme}) => theme.COLORS.RED};
+      background-color: ${({theme}) => theme.COLORS.DARK};
       color: white;
       border-radius: 50%;
       z-index: 1;

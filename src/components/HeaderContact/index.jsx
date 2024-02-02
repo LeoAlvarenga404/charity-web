@@ -1,10 +1,12 @@
 import { Container } from "./style";
 import call from '../../assets/call.svg'
 import mail from '../../assets/mail.svg'
-import instagram from '../../assets/instagram.svg'
-import facebook from '../../assets/facebook.svg'
-import twitter from '../../assets/twitter.svg'
-import pinterest from '../../assets/pinterest.svg'
+
+import { FacebookIcon } from '../../components/facebook'
+import { InstagramIcon } from '../../components/instagram'
+import { TwitterLogo } from '../../components/twitter'
+import {  PinterestIcon} from '../../components/pinterest'
+
 
 export function HeaderContact(){
   return(
@@ -21,10 +23,10 @@ export function HeaderContact(){
         </div>
         </div>
         <div className="social-media">
-        <img src={instagram} alt="imagem socialmedia" />
-        <img src={facebook} alt="imagem socialmedia" />
-        <img src={twitter} alt="imagem socialmedia" />
-        <img src={pinterest} alt="imagem socialmedia" />
+        <InstagramIcon color={'#126360'}/>
+        <FacebookIcon color={'#126360'}/>
+        <TwitterLogo color={'#126360'}/>
+        <PinterestIcon color={'#126360'}/>
         </div>
       </div>
     </Container>

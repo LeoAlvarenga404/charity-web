@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 export function Header(){
   return(
     <Container>
-      <Link to="/"><Logo/></Link>
+      <Link to="/"><Logo color={`#2E4049`}/></Link>
       <div>
         <nav>
           <ul>

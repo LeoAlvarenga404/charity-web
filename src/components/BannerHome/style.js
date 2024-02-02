@@ -54,7 +54,7 @@ export const Container = styled.div`
     .line {
       width: 100%;
       max-width:30rem;
-      height: .1rem;
+      height: .2rem;
       background-color: white;
     }
 

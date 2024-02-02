@@ -32,6 +32,8 @@ export const Container = styled.div`
          a{
           text-decoration: none;
           color: #2E4049;
+          font-weight: 500;
+          font-size: 1.8rem;
          }
 
         &:hover {

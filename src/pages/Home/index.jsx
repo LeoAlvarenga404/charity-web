@@ -16,6 +16,7 @@ import image2 from '../../assets/causes-2.png'
 import image3 from '../../assets/causes-3.png'
 import image4 from '../../assets/causes-4.png'
 
+import { Footer } from '../../components/Footer';
 
 export function Home(){
   
@@ -79,14 +80,16 @@ export function Home(){
           <Link to="/causes"><Button title={"More causes"}/></Link>
         </div>
           <div className="slider-cards">
-            <SliderCard imageSrc={image1} promo={"85%"} title={"Big charity: build school for poor children"} raised={'Raised - 5M'} goal={'Goal - $10M'}/>
-            <SliderCard imageSrc={image2} promo={"55%"} title={"Big charity: build school for poor children"} raised={'Raised - 5M'} goal={'Goal - $10M'}/>
-            <SliderCard imageSrc={image3} promo={"60%"} title={"Big charity: build school for poor children"} raised={'Raised - 5M'} goal={'Goal - $10M'}/>
+            <SliderCard imageSrc={image1} promo={"85%"} title={"Big charity: build school for poor children"} raised={'Raised - 6M'} goal={'Goal - $10M'}/>
+            <SliderCard imageSrc={image2} promo={"55%"} title={"Lorem ipsum dolor sit amet, consectetur"} raised={'Raised - 9M'} goal={'Goal - $17M'}/>
+            <SliderCard imageSrc={image3} promo={"60%"} title={"Lorem ipsum dolor sit amet,"} raised={'Raised - 12M'} goal={'Goal - $18M'}/>
             <SliderCardDark imageSrc={image4} promo={"25%"} title={"Big charity: build school for poor children"} raised={'Raised - 5M'} goal={'Goal - $10M'}/>
           </div>
         </div>
        </section>
       </main>
+      <Footer/>
     </Container>
   );
 }
+

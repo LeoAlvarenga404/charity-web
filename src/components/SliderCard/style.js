@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   position: relative;
   width: 100%; 
-  
   min-width: 38rem;
   background-color: white;
   display: flex;
@@ -14,7 +13,7 @@ export const Container = styled.div`
     
     img {
     width: 100%;
-    aspect-ratio: 1/1;
+    
     }
 
   }
