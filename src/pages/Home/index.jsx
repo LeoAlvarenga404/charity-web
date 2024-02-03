@@ -18,6 +18,15 @@ import image4 from '../../assets/causes-4.png'
 import volunteerhome from '../../assets/volunteer-home.png'
 import { Form } from '../../components/Form';
 import { Footer } from '../../components/Footer';
+import { Need } from '../../components/Need';
+
+import medicineIcon from '../../assets/icons/medicine.svg'
+import waterIcon from '../../assets/icons/water.svg'
+import babyIcon from '../../assets/icons/baby.svg'
+import foodIcon from '../../assets/icons/food.svg'
+import worldIcon from '../../assets/icons/world.svg'
+import learnIcon from '../../assets/icons/learn.svg'
+
 
 export function Home(){
   
@@ -110,6 +119,19 @@ export function Home(){
               buttonStyle={{background: 'white', color: 'black'}}
               />
         </div>
+        </section>
+        <section id="need">
+          <div className="container">
+            <TextGroup smallerTitle={'What we do'} largerTitle={'We do it for People in Need'} containerStyle={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center'}}/>
+            <div className="content">
+            <Need image={medicineIcon} title={'Medicine Help'}/>
+            <Need image={waterIcon} title={'Water Delivery'}/>
+            <Need image={babyIcon} title={'We Care About'}/>
+            <Need image={foodIcon} title={'Food Delivery'}/>
+            <Need image={worldIcon} title={'Spread The World'}/>
+            <Need image={learnIcon} title={'Learn Education'}/>
+            </div>
+          </div>
         </section>
       </main>
       <Footer/>

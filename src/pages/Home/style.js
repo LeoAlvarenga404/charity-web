@@ -19,7 +19,8 @@ export const Container = styled.div`
       gap: 5rem;
       
       max-width: 160rem;
-      margin: 0 auto;
+      margin: 3rem auto 0;
+      
       .about-us {
       div {
         margin-bottom: 2rem;
@@ -119,7 +120,7 @@ export const Container = styled.div`
     #volunteer {
       width: 100%;
       background: #2E4049;
-      margin-bottom: 100rem;
+
 
       .container-volunteer{
         max-width: 160rem;
@@ -142,6 +143,22 @@ export const Container = styled.div`
           }
         }
         
+      }
+    }
+
+    #need {
+      max-width: 160rem;
+      margin: 0 auto;
+      padding: 6.6rem 0 15rem 0;
+
+      .container {
+
+        .content {
+          margin-top: 6rem;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 5rem;
+        }
       }
     }
   }
