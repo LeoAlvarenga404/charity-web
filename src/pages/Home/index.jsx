@@ -29,6 +29,14 @@ import learnIcon from '../../assets/icons/learn.svg'
 
 import { Project } from '../../components/Project'
 
+import { TeamCard } from '../../components/TeamCard'
+import imagemCard1 from '../../assets/team1.png'
+import imagemCard2 from '../../assets/team2.png'
+import imagemCard3 from '../../assets/team3.png'
+import { TeamCardBlue } from '../../components/TeamCardBlue';
+import { Event } from '../../components/Event';
+import { LuMapPin } from 'react-icons/lu'
+
 export function Home(){
   
   return (
@@ -136,6 +144,74 @@ export function Home(){
         </section>
         <section id="project">
         <Project/>
+        </section>
+        <section id="team">
+          <div className="team-container">
+          <TextGroup smallerTitle={'Team'} largerTitle={'Meet Our Volunteers'} containerStyle={{alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}/>
+          <div className="team-cards">
+            <TeamCard image={imagemCard1} name={'Martin Luther'}/>
+            <TeamCard image={imagemCard2} name={'Keira Knightley'}/>
+            <TeamCard image={imagemCard3} name={'Jack Sparrow'}/>
+            <TeamCardBlue/>
+          </div>
+
+          </div>
+        </section>
+        <section id="events">
+          <div className="events-container">
+            <div className="events-title">
+              <TextGroup smallerTitle={'Our Events'} largerTitle={'Join Upcoming Events Replays & Webinars'}/>
+              <Link to={'/events'}><Button title={'More EventS'}/></Link>
+            </div>
+            <div className="events-content">
+              <div className="content-1">
+                  <Event/>
+                <div className="locate">
+                  <div>
+                    <LuMapPin/>
+                  </div>
+                  <div>
+                    <span>Dark Spurt, San Francisco, CA 94528</span>
+                  </div>
+                </div>
+              </div>
+              <div className="content-2">
+                <div className="container">
+                  <div className="calendary">
+                    <h1>18</h1>
+                    <h4>June</h4>
+                  </div>
+                  <div className="calendary-text">
+                    <p>Organized By: <span>Nattasha</span></p>
+                    <h4>Healthy Food for Growing</h4>
+                    <p>There are many varieations of passages of injected Lorem Ipsum available.</p>
+                  </div>
+                </div>
+                <div className="container">
+                  <div className="calendary">
+                    <h1>21</h1>
+                    <h4>August</h4>
+                  </div>
+                  <div className="calendary-text">
+                    <p>Organized By: <span>Nattasha</span></p>
+                    <h4>Healthy Food for Growing</h4>
+                    <p>There are many varieations of passages of injected Lorem Ipsum available.</p>
+                  </div>
+                </div>
+                <div className="container">
+                  <div className="calendary">
+                    <h1>14</h1>
+                    <h4>July</h4>
+                  </div>
+                  <div className="calendary-text">
+                    <p>Organized By: <span>Nattasha</span></p>
+                    <h4>Healthy Food for Growing</h4>
+                    <p>There are many varieations of passages of injected Lorem Ipsum available.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
       <Footer/>
