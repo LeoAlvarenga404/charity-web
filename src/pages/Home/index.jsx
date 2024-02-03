@@ -27,6 +27,7 @@ import foodIcon from '../../assets/icons/food.svg'
 import worldIcon from '../../assets/icons/world.svg'
 import learnIcon from '../../assets/icons/learn.svg'
 
+import { Project } from '../../components/Project'
 
 export function Home(){
   
@@ -132,6 +133,9 @@ export function Home(){
             <Need image={learnIcon} title={'Learn Education'}/>
             </div>
           </div>
+        </section>
+        <section id="project">
+        <Project/>
         </section>
       </main>
       <Footer/>
