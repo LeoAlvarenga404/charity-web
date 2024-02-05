@@ -8,6 +8,10 @@ export const Container = styled.div`
     position: relative;
     color: white;
     text-align: center;
+
+    img {
+      width: 100%;
+    }
     &::before {
       content: "";
       width: 100%;

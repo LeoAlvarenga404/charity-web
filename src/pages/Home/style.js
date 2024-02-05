@@ -253,8 +253,7 @@ export const Container = styled.div`
               font-size: 2rem;
               line-height: 130%;
               font-weight: 400;
-              
-              
+
             }
 
             span {
