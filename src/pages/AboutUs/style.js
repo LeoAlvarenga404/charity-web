@@ -16,6 +16,7 @@ export const Container = styled.div`
         display: flex;
         gap: 3rem;
         padding-bottom: 10rem;
+        justify-content: space-between;
 
         p {
           max-width: 80rem;
