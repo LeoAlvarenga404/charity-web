@@ -48,7 +48,8 @@ export const Container = styled.div`
       background-color: #384C56;
       display: flex;
       gap: 7rem;
-      white-space: nowrap;
+      display: flex;
+      flex-wrap: wrap;
       ul {
         display: flex;
         flex-direction: column;

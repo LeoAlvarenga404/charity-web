@@ -37,6 +37,9 @@ import { TeamCardBlue } from '../../components/TeamCardBlue';
 import { Event } from '../../components/Event';
 import { LuMapPin } from 'react-icons/lu'
 
+import eventImg from '../../assets/event1.png'
+
+
 export function Home(){
   
   return (
@@ -165,7 +168,7 @@ export function Home(){
             </div>
             <div className="events-content">
               <div className="content-1">
-                  <Event/>
+                  <Event imageEvent={eventImg} day={'18'} month={'June'}/>
                 <div className="locate">
                   <div>
                     <LuMapPin/>

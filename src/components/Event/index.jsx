@@ -1,7 +1,6 @@
 import { Container } from "./style";
-import imageEvent from '../../assets/event1.png'
 import { LuClock3 } from "react-icons/lu";
-export function Event(){
+export function Event({imageEvent, day, month, calendaryStyle}){
   return(
     <Container>
       <img src={imageEvent} alt="evento"/>
@@ -16,9 +15,9 @@ export function Event(){
       </div>
       <h4>Education for Poor Children</h4>
       <p>There are many varieations of passages of injected Lorem Ipsum available,but the majority have.</p>
-      <div className="calendary">
-        <h1>18</h1>
-        <h4>June</h4>
+      <div className="calendary" style={calendaryStyle}>
+        <h1>{day}</h1>
+        <h4>{month}</h4>
       </div>
     </Container>
   )

@@ -229,7 +229,7 @@ export const Container = styled.div`
         .content-2 {
           display: flex;
           flex-direction: column;
-
+         
           
 
           .container {
