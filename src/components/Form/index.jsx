@@ -22,8 +22,6 @@ export function Form({
   
   }){
 
-
-
   return(
     <Container style={containerStyle}>
       <h5 style={titleStyle}>{title}</h5>

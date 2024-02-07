@@ -25,6 +25,11 @@ export const Container = styled.div`
       display: flex;
       align-items: end;
       padding: 2rem;
+
+      h5 {
+        font-size: 5rem;
+      }
+
       svg {
         position: absolute;
         right: 2rem;

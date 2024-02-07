@@ -1,7 +1,7 @@
 import { Container } from "./style";
 import svg from '../../assets/hand.svg';
 import { Button } from "../Button";
-import { Link } from "react-router-dom";
+import { Link,  } from "react-router-dom";
 export function TeamCardBlue(){
   return(
     <Container>

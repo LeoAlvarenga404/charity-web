@@ -1,7 +1,6 @@
 import { Container } from "./style";
 import { Bar } from "../Bar";
 import { Button } from "../Button";
-import { Link } from "react-router-dom";
 
 export function SliderCard({imageSrc, promo, title, raised, goal }){
   return(
@@ -19,7 +18,7 @@ export function SliderCard({imageSrc, promo, title, raised, goal }){
               <h6>{goal}</h6>
               </div>
             </div>
-      <Link to="/causes"><Button title={"Donate"}/></Link>
+      <a href="/causes"><Button title={"Donate"}/></a>
       </div>
     </Container>
   )

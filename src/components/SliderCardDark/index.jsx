@@ -24,7 +24,7 @@ export function SliderCardDark({imageSrc, promo, title, raised, goal }){
       </div>
       <div className="add">
         <div className="add-icon">
-          <Link to="/causes"><IoMdAdd/></Link>
+          <a href="/causes"><IoMdAdd/></a>
         </div>
       </div>
     </Container>
